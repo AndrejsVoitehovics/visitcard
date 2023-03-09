@@ -1,0 +1,11 @@
+.modelImg1{
+    background: url("../imagesModelingInstr/modelBg_1.jpg") no-repeat 90%/cover;
+    min-height: 100vh;
+    position: relative;
+
+}
+.modelImg2{
+    background: url("../imagesModelingInstr/modelBg_2.jpg") no-repeat 90%/cover;
+    min-height: 100vh;
+    position: relative;
+}
