@@ -1,11 +1,11 @@
 .buvImg1{
-    background: url("../ImagesGeoInstr/geo_bg_1.jpg") no-repeat 90%/cover;
+    background: url("../imagesBuvInstr/buvBg_1.jpg") no-repeat 90%/cover;
     min-height: 100vh;
     position: relative;
 
 }
 .buvImg2{
-    background: url("../ImagesGeoInstr/geo_bg_2.jpg") no-repeat 90%/cover;
+    background: url("../imagesBuvInstr/buvBg_2.jpg") no-repeat 90%/cover;
     min-height: 100vh;
     position: relative;
 }

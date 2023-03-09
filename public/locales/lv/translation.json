@@ -1,5 +1,22 @@
 {
-  "geo": "Geology, Geophysics",
-  "intro": "Text2",
-  "lang": "EN"
+  "geo": "Ģeoloģija, ģeofizika",
+  "intro": "Mani sauc Andrejs, un šī ir mana vietne par to, kas man interesē!",
+  "descrAbout": "Šīs vizītkaršu mājas lapas ideja dzima IT studiju procesā, kā iegūto zināšanu reāls pielietojums un pārtapa par ideju apkopot vienuviet visus savus hobijus, kas man patīk.:)",
+  "lang": "LV",
+  "hi": "Sveiki!",
+  "construction": "Celtniecība",
+  "finishworks": "Apdares darbi",
+  "it": "IT",
+  "meb": "Iebūvētas mēbeles",
+  "model": "Modelēšana",
+  "discrOfMeb": "Iebūvējamo mēbeļu projektēšana, izgatavošana un uzstādīšana. No idejas līdz gatavam risinājumam",
+  "skills-tools": "Izmantotās prasmes, instrumenti un materiāli",
+  "myWorks": "Manu darbu piemēri",
+  "geoDescr": "Inženierģeoloģisko un inženierģeodēzisko uzmērījumu datu interpretācija",
+  "skills-tools-geo": "Izmantotā programmatūra.",
+  "itDescr": "Pastāvīgās IT pasaules izpētes procesā",
+  "itSkills": "Jau pētīti (vai? :)) rīki un tehnoloģijas",
+  "itDev": "Konkrēti, šī vietne atrodas vietnē React, lapu indeksēšana ir ReactRouter, režģis ir no Bootstrap, un galerija ir LightBox2b, daudzvalodības ieviešana ir i18NEXT.",
+  "buvDescr": "Dažādi celtniecības darbi; iekšējo sienu ieklāšana, ventilācijas-rekuperācijas sistēmas ierīkošana, elektroinstalācijas ierīkošana, fasādes siltināšana, apmešanas darbi, aukstā bēniņu siltināšana, jumta pārkares vīlēšana",
+  "finishingDescr": "Dažādi apdares darbi; flīžu ieklāšana, sadzīves tehnikas un santehnikas uzstādīšana, savvaļas ķieģeļu ieklāšana, lamināta ieklāšana"
   }

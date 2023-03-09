@@ -1,0 +1,11 @@
+.geoImg1{
+    background: url("../ImagesGeoInstr/geo_bg_1.jpg") no-repeat 90%/cover;
+    min-height: 100vh;
+    position: relative;
+
+}
+.geoImg2{
+    background: url("../ImagesGeoInstr/geo_bg_2 .jpg") no-repeat 90%/cover;
+    min-height: 100vh;
+    position: relative;
+}

@@ -1,0 +1,11 @@
+.itImg1{
+    background: url("../imagesItInstr/itBg_1.jpg") no-repeat 90%/cover;
+    min-height: 100vh;
+    position: relative;
+
+}
+.itImg2{
+    background: url("../imagesItInstr/itBg_2.jpg") no-repeat 90%/cover;
+    min-height: 100vh;
+    position: relative;
+}

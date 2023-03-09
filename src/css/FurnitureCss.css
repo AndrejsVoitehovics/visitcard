@@ -1,0 +1,25 @@
+.bgFurnitureImg1{
+    background: url("../imagesTeh/Furniture1.jpg") no-repeat 50%/cover;
+    min-height: 100vh;
+    position: relative;
+
+}
+.bgFurnitureImg2{
+    background: url("../imagesTeh/Furniture2.jpg") no-repeat 50%/cover;
+    min-height: 100vh;
+    position: relative;
+}
+.bgFurnitureImg3{
+
+    background: url("../imagesTeh/Furniture3.jpg")no-repeat 50%/cover ,#2f2f30 ;
+    min-height: 100vh;
+    position: relative;
+}
+.bgFurnitureImgTeh{
+    height: 91.5vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+
+}
+

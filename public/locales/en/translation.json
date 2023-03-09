@@ -1,4 +1,22 @@
 {
-  "text1": "Welcome to react using react-i18next",
-  "text2": "Text2"
+  "geo": "Geology, Geophysics",
+  "intro": "My name is Andrew and this is my website about what I'm into!",
+  "descrAbout": "The idea of this portfolio website was born in the process of studying IT, as a real application of the acquired knowledge, and transformed into the idea of collecting all my hobbies that I enjoy in one place:)",
+  "lang": "EN",
+  "hi": "Hi!",
+  "construction": "Construction",
+  "finishworks": "Finishing work",
+  "it": "IT",
+  "meb": "Built in furniture",
+  "model": "Modeling",
+  "discrOfMeb": "Design, manufacture and installation of built-in furniture. All the way from idea to finished solution",
+  "skills-tools": "Skills, tools and materials used",
+  "myWorks": "Examples of my work",
+  "geoDescr": "Interpretation of data from engineering-geological and engineering-geodetic surveys",
+  "skills-tools-geo": "Software used.",
+  "itDescr": "In the process of constant study of the IT world",
+  "itSkills": "Tools and technologies already studied (are they?:))",
+  "itDev": "In particular, this site is on React, page indexing is on ReactRouter, the grid is on Bootstrap, and the gallery is on LightBox2, multilingual implementation - i18NEXT.",
+  "buvDescr": "Various construction works; laying of internal walls, installation of a ventilation-recuperation system, installation of electrical wiring, facade insulation, plastering works, cold attic insulation, roof overhang filing",
+  "finishingDescr": "Various finishing works; laying of tiles, installation of household appliances and sanitary ware, laying of wild bricks, laying of laminate"
   }

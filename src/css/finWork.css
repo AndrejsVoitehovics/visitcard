@@ -1,0 +1,11 @@
+.finWorkImg_1{
+    background: url("../imagesFinWorkInstr/finWorkBg_1.jpg") no-repeat 90%/cover;
+    min-height: 100vh;
+    position: relative;
+
+}
+.finWorkImg_2{
+    background: url("../imagesFinWorkInstr/finWorkBg_2.jpg")  no-repeat 90%/cover;
+    min-height: 100vh;
+    position: relative;
+}
