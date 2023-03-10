@@ -8,16 +8,19 @@ import Miniature from "../imagesTeh/MiniatureWargaming.jpg"
 import Furniture from "../imagesTeh/BuildInFurniture.jpg"
 import WebDev from "../imagesTeh/WebDev.jpg"
 import {useTranslation} from "react-i18next";
+
+
+
+
 function Home() {
     const {t} = useTranslation();
 
-
-
     return (
+
         <div>
             <section className="promo">
                 <div className="containerHome">
-                    <div className="titleOne mainColor text_24px text_bold"><h1 className="text_36px">{t("hi")}</h1>
+                    <div className="titleOne mainColor text_24px text_bold textAnimationFromLeft"><h1 className="text_36px ">{t("hi")}</h1>
                         {t("intro")}
                         <div className="circle"></div>
 

@@ -12,7 +12,7 @@ const Menu = () => {
     return (
 
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark menuItems">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark menuItems ">
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
                         aria-label="Toggle navigation">

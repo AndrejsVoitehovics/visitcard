@@ -77,12 +77,12 @@ function MiniatureWargaming() {
                 <div className="row rowMaxHeight">
 
 
-                    <div className="divForeText mt-5">
+                    <div className="divForeText mt-5 textAnimationFadeIn">
                         <div className="mainColor  text_24px text_bold mt-5  ">
                             {t("modelingDescr")}
                         </div>
                     </div>
-                    <div className="text-center mt-5 mb-3">
+                    <div className="text-center mt-5 mb-3 textAnimationFromRight">
 
                         <div className="row rowMaxHeight">
 
@@ -105,7 +105,7 @@ function MiniatureWargaming() {
 
 
                 <div className="galleryWrapper container ">
-                    <div className="divForeText pt-3 pb-5 ">
+                    <div className="divForeText pt-3 pb-5  ">
                         <div className="mainColor  text_28px text_bold">
                             {t("myModels")}
                         </div>

@@ -81,14 +81,14 @@ function Geo() {
                 <div className="row rowMaxHeight">
 
 
-                    <div className="divForeText mt-5">
+                    <div className="divForeText mt-5 textAnimationFromRight">
                         <div className="mainColor  text_24px text_bold mt-5  ">
                             {t("geoDescr")}
                         </div>
                     </div>
 
 
-                    <div className="row rowMaxHeight">
+                    <div className="row rowMaxHeight textAnimationFromLeft">
                         <div className="text-center mt-5 mb-3">
                             <div className="mainColor text_18px text_bold  ">
                                 {t("skills-tools-geo")}

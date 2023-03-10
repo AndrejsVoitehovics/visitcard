@@ -72,12 +72,12 @@ function WebDev() {
                 <div className="row rowMaxHeight">
 
 
-                    <div className="divForeText mt-5">
+                    <div className="divForeText mt-5 textAnimationFromLeft">
                         <div className="mainColor  text_24px text_bold mt-5  ">
                             {t("itDescr")}
                         </div>
                     </div>
-                    <div className="text-center mt-5 mb-3">
+                    <div className="text-center mt-5 mb-3 textAnimationFadeIn">
                         <div className="mainColor text_18px text_bold  ">
                             {t("itSkills")}
                         </div>

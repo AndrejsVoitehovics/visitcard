@@ -80,14 +80,14 @@ function BuildInFurniture() {
                 <div className="row rowMaxHeight">
 
 
-                    <div className="divForeText mt-5">
+                    <div className="divForeText mt-5 textAnimationFromLeft">
                         <div className="mainColor  text_24px text_bold mt-5  ">
                             {t("discrOfMeb")}
                         </div>
                     </div>
 
 
-                    <div className="row rowMaxHeight">
+                    <div className="row rowMaxHeight textAnimationFromRight">
                         <div className="text-center mt-5 mb-3">
                             <div className="mainColor text_18px text_bold  ">
                                 {t("skills-tools")}
@@ -110,7 +110,7 @@ function BuildInFurniture() {
 
             <div className="container-fluid d-flex justify-content-center containerInstrument bgFurnitureImg3">
                 <div className="galleryWrapper container ">
-                    <div className="divForeText pt-3 pb-5 ">
+                    <div className="divForeText pt-3 pb-5 textAnimationFromLeft ">
                         <div className="mainColor  text_24px text_bold">
                             {t("myWorks")}
                         </div>

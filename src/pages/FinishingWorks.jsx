@@ -65,7 +65,7 @@ function FinishingWorks() {
                 <div className="row rowMaxHeight">
 
 
-                    <div className="divForeText mt-5">
+                    <div className="divForeText mt-5 textAnimationFadeIn">
                         <div className="mainColor  text_24px text_bold mt-5  ">
                             {t("finishingDescr")}
                         </div>

@@ -161,5 +161,39 @@ code {
     max-width: 50px !important;
 }
 
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 
+@keyframes slideInFromRight {
+    100% {
+        transform: translateX(0);
+    }
+    0% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes fadeIn{
+    0%    { opacity: 0; }
+
+    100%  { opacity: 1; }
+}
+
+.textAnimationFromLeft{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.textAnimationFromRight{
+    animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+.textAnimationFadeIn{
+    animation: 2s ease-out 0s 1 fadeIn;
+}
 
