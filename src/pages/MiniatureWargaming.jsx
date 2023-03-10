@@ -14,7 +14,27 @@ import warmash from "../imagesModelingInstr/warmash1.jpg";
 import infinity from "../imagesModelingInstr/infinity1.jpg";
 
 
-import img1 from "../imagesWebDev/1.jpg";
+import img1 from "../imagesModeling/1.jpg";
+import img2 from "../imagesModeling/2.jpg";
+import img3 from "../imagesModeling/3.jpg";
+import img4 from "../imagesModeling/4.jpg";
+import img5 from "../imagesModeling/5.jpg";
+import img6 from "../imagesModeling/6.jpg";
+import img7 from "../imagesModeling/7.jpg";
+import img8 from "../imagesModeling/8.jpg";
+import img9 from "../imagesModeling/9.jpg";
+import img10 from "../imagesModeling/10.jpg";
+import img11 from "../imagesModeling/11.jpg";
+import img12 from "../imagesModeling/12.jpg";
+import img13 from "../imagesModeling/13.jpg";
+import img14 from "../imagesModeling/14.jpg";
+import img15 from "../imagesModeling/15.jpg";
+import img16 from "../imagesModeling/16.jpg";
+import img17 from "../imagesModeling/17.jpg";
+import img18 from "../imagesModeling/18.jpg";
+import img19 from "../imagesModeling/19.jpg";
+import img20 from "../imagesModeling/20.jpg";
+
 
 
 
@@ -98,6 +118,25 @@ function MiniatureWargaming() {
                     <div className="row ">
 
                         {addPhotoInGallery(img1)}
+                        {addPhotoInGallery(img2)}
+                        {addPhotoInGallery(img3)}
+                        {addPhotoInGallery(img4)}
+                        {addPhotoInGallery(img5)}
+                        {addPhotoInGallery(img6)}
+                        {addPhotoInGallery(img7)}
+                        {addPhotoInGallery(img8)}
+                        {addPhotoInGallery(img9)}
+                        {addPhotoInGallery(img10)}
+                        {addPhotoInGallery(img11)}
+                        {addPhotoInGallery(img12)}
+                        {addPhotoInGallery(img13)}
+                        {addPhotoInGallery(img14)}
+                        {addPhotoInGallery(img15)}
+                        {addPhotoInGallery(img16)}
+                        {addPhotoInGallery(img17)}
+                        {addPhotoInGallery(img18)}
+                        {addPhotoInGallery(img19)}
+                        {addPhotoInGallery(img20)}
 
 
                     </div>

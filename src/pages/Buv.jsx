@@ -28,6 +28,8 @@ import img15 from "../imagesBuv/15.jpg";
 import img16 from "../imagesBuv/16.jpg";
 import img17 from "../imagesBuv/17.jpg";
 import img18 from "../imagesBuv/18.jpg";
+import img19 from "../imagesBuv/19.jpg";
+import img20 from "../imagesBuv/20.jpg";
 import fin from "../imagesBuv/fin.jpg";
 
 
@@ -115,6 +117,8 @@ function Buv() {
                         {addPhotoInGallery(img16)}
                         {addPhotoInGallery(img17)}
                         {addPhotoInGallery(img18)}
+                        {addPhotoInGallery(img19)}
+                        {addPhotoInGallery(img20)}
                         {addPhotoInGallery(fin)}
 
                     </div>

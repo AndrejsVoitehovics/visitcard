@@ -21,6 +21,10 @@ import img2 from "../imagesWebDev/2.jpg";
 import img3 from "../imagesWebDev/3.jpg";
 import img4 from "../imagesWebDev/4.jpg";
 import img5 from "../imagesWebDev/5.jpg";
+import img6 from "../imagesWebDev/6.jpg";
+import img7 from "../imagesWebDev/7.jpg";
+import img8 from "../imagesWebDev/8.jpg";
+import img9 from "../imagesWebDev/9.jpg";
 
 import {useTranslation} from "react-i18next";
 
@@ -124,6 +128,10 @@ function WebDev() {
                         {addPhotoInGallery(img3)}
                         {addPhotoInGallery(img4)}
                         {addPhotoInGallery(img5)}
+                        {addPhotoInGallery(img6)}
+                        {addPhotoInGallery(img7)}
+                        {addPhotoInGallery(img8)}
+                        {addPhotoInGallery(img9)}
 
                     </div>
 

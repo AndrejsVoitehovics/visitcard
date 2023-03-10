@@ -39,7 +39,7 @@ import img23 from "../imagesFurniture/skaf_melnsila_2.JPEG"
 import img24 from "../imagesFurniture/gravis-3.jpg"
 import img25 from "../imagesFurniture/detskaja.jpg"
 import img26 from "../imagesFurniture/gard_gravis.jpg"
-
+import img27 from "../imagesFurniture/darz_vhod.jpg"
 lightbox.option({
     'resizeDuration': 400,
     'wrapAround': true
@@ -144,6 +144,7 @@ function BuildInFurniture() {
                         {addPhotoInGallery(img24)}
                         {addPhotoInGallery(img25)}
                         {addPhotoInGallery(img26)}
+                        {addPhotoInGallery(img27)}
 
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, {useLayoutEffect} from "react";
 import './css/App.css';
 import './css/FurnitureCss.css';
 import {
@@ -14,9 +14,21 @@ import {FinishingWorks} from  "./pages/FinishingWorks";
 import {MiniatureWargaming} from  "./pages/MiniatureWargaming";
 import {WebDev} from  "./pages/WebDev";
 import {BuildInFurniture} from  "./pages/BuildInFurniture";
+import {useLocation} from "react-router-dom";
 function App() {
-    return (
 
+    const Wrapper = ({children}) => {
+        const location = useLocation();
+        useLayoutEffect(() => {
+            document.documentElement.scrollTo(0, 0);
+        }, [location.pathname]);
+        return children
+    }
+
+
+
+    return (
+<Wrapper>
         <Routes>
             <Route path="/" element={<Menu/>}>
                 <Route index element={<Home/>}/>
@@ -29,6 +41,7 @@ function App() {
                 <Route path="MiniatureWargaming" element={<MiniatureWargaming/>}> </Route>
             </Route>
         </Routes>
+</Wrapper>
     );
 }
 

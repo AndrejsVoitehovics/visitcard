@@ -47,8 +47,8 @@ function Home() {
                             <div className="card cardWrapper border-dark ">
                                 <img src={geo} className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title">Геология, Геофизика</h5>
-                                    <Link to="/Geo" className="btn btn-dark btnButton">Дальше</Link>
+                                    <h5 className="card-title">{t("geo")}</h5>
+                                    <Link to="/Geo" className="btn btn-dark btnButton">{t("next")}</Link>
                                 </div>
                             </div>
                         </div>
@@ -56,8 +56,8 @@ function Home() {
                             <div className=" card  cardWrapper border-dark">
                                 <img src={strojka} className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title">Строительство</h5>
-                                    <Link to="/Buv" className="btn btn-dark btnButton">Дальше</Link>
+                                    <h5 className="card-title">{t("construction")}</h5>
+                                    <Link to="/Buv" className="btn btn-dark btnButton">{t("next")}</Link>
                                 </div>
                             </div>
                         </div>
@@ -65,8 +65,8 @@ function Home() {
                             <div className=" card  cardWrapper border-dark">
                                 <img src={FinWork} className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title">Отделочные работы</h5>
-                                    <Link to="/FinishingWorks" className="btn btn-dark btnButton">Дальше</Link>
+                                    <h5 className="card-title">{t("finishworks")}</h5>
+                                    <Link to="/FinishingWorks" className="btn btn-dark btnButton">{t("next")}</Link>
                                 </div>
                             </div>
                         </div>
@@ -74,8 +74,8 @@ function Home() {
                             <div className="card  cardWrapper border-dark">
                                 <img src={WebDev} className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title">IT</h5>
-                                    <Link to="/WebDev" className="btn btn-dark btnButton">Дальше</Link>
+                                    <h5 className="card-title">{t("it")}</h5>
+                                    <Link to="/WebDev" className="btn btn-dark btnButton">{t("next")}</Link>
                                 </div>
                             </div>
                         </div>
@@ -83,9 +83,9 @@ function Home() {
                             <div className="card  cardWrapper border-dark">
                                 <img src={Furniture} className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title">Встроенная мебель</h5>
+                                    <h5 className="card-title">{t("meb")}</h5>
 
-                                    <Link to="/BuildInFurniture" className="btn btn-dark btnButton">Дальше</Link>
+                                    <Link to="/BuildInFurniture" className="btn btn-dark btnButton">{t("next")}</Link>
                                 </div>
                             </div>
                         </div>
@@ -93,9 +93,9 @@ function Home() {
                             <div className="card  cardWrapper border-dark">
                                 <img src={Miniature} className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title">Моделирование</h5>
+                                    <h5 className="card-title">{t("model")}</h5>
 
-                                    <Link to="/MiniatureWargaming" className="btn btn-dark btnButton">Дальше</Link>
+                                    <Link to="/MiniatureWargaming" className="btn btn-dark btnButton">{t("next")}</Link>
                                 </div>
                             </div>
                         </div>

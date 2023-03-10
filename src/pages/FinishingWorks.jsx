@@ -9,7 +9,6 @@ import lightbox from "../lightbox"
 import {useTranslation} from "react-i18next";
 
 
-
 import img1 from "../imagesFinWork/1.jpg";
 import img2 from "../imagesFinWork/2.jpg";
 import img3 from "../imagesFinWork/3.jpg";
@@ -18,6 +17,12 @@ import img5 from "../imagesFinWork/5.jpg";
 import img6 from "../imagesFinWork/6.jpg";
 import img7 from "../imagesFinWork/7.jpg";
 import img8 from "../imagesFinWork/8.jpg";
+import img10 from "../imagesFinWork/10.jpg";
+import img11 from "../imagesFinWork/11.jpg";
+import img12 from "../imagesFinWork/12.jpg";
+import img13 from "../imagesFinWork/13.jpg";
+import img14 from "../imagesFinWork/14.jpg";
+import img15 from "../imagesFinWork/15.jpg";
 import fin0 from "../imagesFinWork/fin0.jpg";
 import fin1 from "../imagesFinWork/fin1.jpg";
 
@@ -25,8 +30,9 @@ lightbox.option({
     'resizeDuration': 400,
     'wrapAround': true
 })
-function addPhotoInstruments(imgInstr){
-    return(
+
+function addPhotoInstruments(imgInstr) {
+    return (
         <div className="col ">
             <div className="skillDiv">
                 <img src={imgInstr} className="imgShrink" alt="..."/>
@@ -34,6 +40,7 @@ function addPhotoInstruments(imgInstr){
         </div>
     );
 }
+
 export default addPhotoInstruments();
 
 function addPhotoInGallery(img) {
@@ -46,7 +53,6 @@ function addPhotoInGallery(img) {
         </div>
     );
 }
-
 
 
 function FinishingWorks() {
@@ -66,7 +72,6 @@ function FinishingWorks() {
                     </div>
 
 
-
                 </div>
             </div>
 
@@ -83,15 +88,20 @@ function FinishingWorks() {
                     <div className="row ">
                         {addPhotoInGallery(img1)}
                         {addPhotoInGallery(img2)}
-                        {addPhotoInGallery(img3)}
                         {addPhotoInGallery(img4)}
+                        {addPhotoInGallery(img10)}
+                        {addPhotoInGallery(img3)}
                         {addPhotoInGallery(img5)}
                         {addPhotoInGallery(img6)}
                         {addPhotoInGallery(img7)}
                         {addPhotoInGallery(img8)}
+                        {addPhotoInGallery(img11)}
+                        {addPhotoInGallery(img12)}
+                        {addPhotoInGallery(img13)}
+                        {addPhotoInGallery(img14)}
+                        {addPhotoInGallery(img15)}
                         {addPhotoInGallery(fin0)}
                         {addPhotoInGallery(fin1)}
-
 
 
                     </div>
@@ -102,4 +112,5 @@ function FinishingWorks() {
 
     );
 }
+
 export {FinishingWorks};
