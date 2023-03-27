@@ -40,6 +40,8 @@ import img24 from "../imagesFurniture/gravis-3.jpg"
 import img25 from "../imagesFurniture/detskaja.jpg"
 import img26 from "../imagesFurniture/gard_gravis.jpg"
 import img27 from "../imagesFurniture/darz_vhod.jpg"
+import img28 from "../imagesFurniture/island_1.jpg"
+import img29 from "../imagesFurniture/island_2.jpg"
 lightbox.option({
     'resizeDuration': 400,
     'wrapAround': true
@@ -145,6 +147,8 @@ function BuildInFurniture() {
                         {addPhotoInGallery(img25)}
                         {addPhotoInGallery(img26)}
                         {addPhotoInGallery(img27)}
+                        {addPhotoInGallery(img28)}
+                        {addPhotoInGallery(img29)}
 
                     </div>
                 </div>
